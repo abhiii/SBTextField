@@ -7,23 +7,17 @@
 //
 
 #import "ViewController.h"
+#import "SBTextField.h"
 
 @interface ViewController ()
-
+@property (nonatomic, weak) IBOutlet SBTextField *textField;
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)setTextField:(SBTextField *)textField {
+	_textField = textField;
+	_textField.maxLength = 10;
 }
 
 @end
