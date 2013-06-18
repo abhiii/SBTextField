@@ -18,6 +18,7 @@
 		D22F5E1D177127DD00E1A37B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D22F5E1C177127DD00E1A37B /* Default-568h@2x.png */; };
 		D22F5E20177127DD00E1A37B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22F5E1E177127DD00E1A37B /* MainStoryboard.storyboard */; };
 		D22F5E23177127DD00E1A37B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D22F5E22177127DD00E1A37B /* ViewController.m */; };
+		D22F5E2B1771280A00E1A37B /* SBTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D22F5E291771280A00E1A37B /* SBTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		D22F5E1F177127DD00E1A37B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		D22F5E21177127DD00E1A37B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D22F5E22177127DD00E1A37B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D22F5E291771280A00E1A37B /* SBTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTextField.m; sourceTree = "<group>"; };
+		D22F5E2A1771280A00E1A37B /* SBTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTextField.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				D22F5E1E177127DD00E1A37B /* MainStoryboard.storyboard */,
 				D22F5E21177127DD00E1A37B /* ViewController.h */,
 				D22F5E22177127DD00E1A37B /* ViewController.m */,
+				D22F5E2A1771280A00E1A37B /* SBTextField.h */,
+				D22F5E291771280A00E1A37B /* SBTextField.m */,
 				D22F5E0D177127DD00E1A37B /* Supporting Files */,
 			);
 			path = SBTextField;
@@ -176,6 +181,7 @@
 				D22F5E13177127DD00E1A37B /* main.m in Sources */,
 				D22F5E17177127DD00E1A37B /* AppDelegate.m in Sources */,
 				D22F5E23177127DD00E1A37B /* ViewController.m in Sources */,
+				D22F5E2B1771280A00E1A37B /* SBTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
